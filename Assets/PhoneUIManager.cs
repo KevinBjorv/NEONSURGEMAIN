@@ -9,6 +9,7 @@ public class PhoneUIManager : MonoBehaviour
     [Header("References")]
     public GameObject movementJoystick;
     public GameObject dashButton;
+    public GameObject aimingJoystick;
 
     [Header("UI Elements to move")]
     public RectTransform weaponIconTransform;
@@ -46,19 +47,21 @@ public bool isMobile = Application.isMobilePlatform;
     /// Enable or disable phone UI based on the detected platform.
     private void ConfigureUI()
     {
-        if (movementJoystick == null || dashButton == null) return;
+        if (movementJoystick == null || dashButton == null || aimingJoystick == null) return;
 
         if (isMobile)
         {
             // Show all phone UI elements
             movementJoystick.SetActive(true);
             dashButton.SetActive(true);
+            aimingJoystick.SetActive(true);
             Debug.Log("Mobile platform detected");
         }
         else
         {
             movementJoystick.SetActive(false);
             dashButton.SetActive(false);
+            aimingJoystick.SetActive(false);
         }
     }
 

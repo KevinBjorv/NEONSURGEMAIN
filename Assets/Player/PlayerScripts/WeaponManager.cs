@@ -428,8 +428,15 @@ public class WeaponManager : MonoBehaviour
         const float AIM_FIRE_THRESHOLD = 0.5f; // Adjust as needed (0.0 to 1.0)
 
         // --- Check Input Source ---
-        bool isMobile = (PlayerMovement.Instance.joystick != null); // Check if PlayerMovement is using joysticks
-                                                                    // Or use your PhoneUIManager: bool isMobile = (phoneUIManager != null && phoneUIManager.isMobile);
+        bool isMobile = false;
+        if (PlayerMovement.Instance != null)
+        {
+            isMobile = PlayerMovement.Instance.UseJoystick;
+        }
+        else if (phoneUIManager != null)
+        {
+            isMobile = phoneUIManager.isMobile;
+        }
 
         if (isMobile)
         {
