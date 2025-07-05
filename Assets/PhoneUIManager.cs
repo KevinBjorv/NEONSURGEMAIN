@@ -19,7 +19,8 @@ public class PhoneUIManager : MonoBehaviour
     public RectTransform startMenuButtons;
     public float startMenuButtonsOffsetY = -55f;
 
-    public bool isMobile = Application.isMobilePlatform;
+[HideInInspector]
+public bool isMobile = Application.isMobilePlatform;
     void Awake()
     {
         #if UNITY_EDITOR
