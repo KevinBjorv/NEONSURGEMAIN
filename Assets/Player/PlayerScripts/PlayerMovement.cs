@@ -176,8 +176,18 @@ public class PlayerMovement : MonoBehaviour
         }
         else { /* Log Warning */ }
 
+        // Re-evaluate input method after PhoneUIManager's Awake has run
+        if (phoneUIManager != null)
+        {
+            useJoystick = phoneUIManager.isMobile;
+        }
+        else
+        {
+            useJoystick = Application.isMobilePlatform;
+        }
+
         // Setup Mobile Ability Buttons (Health/Shield ONLY)
-        bool isMobile = (phoneUIManager != null && phoneUIManager.isMobile);
+        bool isMobile = useJoystick;
         SetupAbilityButton(healthSurgeButton, ActivateHealthSurge, isMobile, "Health Surge");
         SetupAbilityButton(shieldBurstButton, ActivateShieldBurst, isMobile, "Shield Burst");
         // Dash button setup removed
