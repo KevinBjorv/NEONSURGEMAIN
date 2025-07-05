@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56892a856feba0f40b1f69bd23b3be5f, type: 3}
+  m_Name: 12_AchievedEverything
+  m_EditorClassIdentifier: 
+  id: 12
+  displayName: Achieved everything
+  description: Achieve all the achievements
+  icon: {fileID: 21300000, guid: 6ddfe86e6d3780a428366de16f0a838a, type: 3}
+  tiers:
+  - targetValue: 1
+    moneyReward: 250000
+  unlockItemId: 

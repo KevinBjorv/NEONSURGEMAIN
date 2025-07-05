@@ -1,0 +1,148 @@
+{
+    "highScore": 987,
+    "lastScore": 954,
+    "totalCurrency": 17291500,
+    "playerLevel": 80,
+    "currentXP": 1038,
+    "xpNeededForNextLevel": 1535,
+    "purchasedUpgradesList": [
+        {
+            "upgradeName": "Health Max",
+            "tier": 5
+        },
+        {
+            "upgradeName": "Stamina Regen",
+            "tier": 4
+        },
+        {
+            "upgradeName": "Health Regen",
+            "tier": 4
+        },
+        {
+            "upgradeName": "Walk Speed",
+            "tier": 3
+        },
+        {
+            "upgradeName": "Rocket Companion",
+            "tier": 1
+        },
+        {
+            "upgradeName": "Grenade",
+            "tier": 1
+        },
+        {
+            "upgradeName": "Ability Time Increase",
+            "tier": 3
+        },
+        {
+            "upgradeName": "Bullet Richoet",
+            "tier": 3
+        },
+        {
+            "upgradeName": "Stamina Max",
+            "tier": 5
+        },
+        {
+            "upgradeName": "Run Speed",
+            "tier": 3
+        },
+        {
+            "upgradeName": "Health Surge",
+            "tier": 3
+        },
+        {
+            "upgradeName": "Dash Unlock",
+            "tier": 1
+        },
+        {
+            "upgradeName": "2x Income",
+            "tier": 1
+        },
+        {
+            "upgradeName": "Shield Burst",
+            "tier": 1
+        },
+        {
+            "upgradeName": "Damage multiplier",
+            "tier": 6
+        },
+        {
+            "upgradeName": "Damage Immunity",
+            "tier": 3
+        }
+    ],
+    "showFps": false,
+    "vsyncOn": false,
+    "masterVolume": 0.5,
+    "musicVolume": 0.800000011920929,
+    "sfxVolume": 1.0,
+    "bloomOn": true,
+    "resolutionIndex": 13,
+    "fullscreenModeIndex": 1,
+    "fpsIndex": 7,
+    "colorblindModeIndex": 0,
+    "screenShakeOn": true,
+    "achievements": [
+        {
+            "id": "8",
+            "currentTier": 2,
+            "currentValue": 0
+        },
+        {
+            "id": "1",
+            "currentTier": 0,
+            "currentValue": 588
+        },
+        {
+            "id": "7",
+            "currentTier": -1,
+            "currentValue": 0
+        },
+        {
+            "id": "2",
+            "currentTier": 0,
+            "currentValue": 5
+        },
+        {
+            "id": "12",
+            "currentTier": -1,
+            "currentValue": 0
+        },
+        {
+            "id": "5",
+            "currentTier": -1,
+            "currentValue": 4183
+        },
+        {
+            "id": "3",
+            "currentTier": 0,
+            "currentValue": 0
+        },
+        {
+            "id": "4",
+            "currentTier": -1,
+            "currentValue": 2
+        },
+        {
+            "id": "6",
+            "currentTier": 2,
+            "currentValue": 3
+        },
+        {
+            "id": "9",
+            "currentTier": 0,
+            "currentValue": 0
+        },
+        {
+            "id": "10",
+            "currentTier": -1,
+            "currentValue": 4
+        },
+        {
+            "id": "11",
+            "currentTier": -1,
+            "currentValue": 0
+        }
+    ],
+    "lastRewardClaimTicksUtc": 638873158450615622
+}

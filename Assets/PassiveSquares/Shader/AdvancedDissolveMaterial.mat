@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AdvancedDissolveMaterial
+  m_Shader: {fileID: 4800000, guid: 2f512edc295195841b1640a59ce59c16, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveNoise:
+        m_Texture: {fileID: 2800000, guid: 1cdc5b506b1a4a33a53c30669ced1f51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 608680f0aa6c87140b0296c9eefa35a8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BulletRadius: 0.53
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveAmount: 0.126
+    - _DstBlend: 0
+    - _FinalNoiseProgress: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _ImpactRadius: 0
+    - _LineCount: 20
+    - _LineThickness: 0
+    - _LineWidth: 0.037
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PenetrationRadius: 0.39
+    - _RadialProgress: 1.456
+    - _RadialSpeedMultiplier: 5
+    - _SliceRadius: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UseRadial: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BulletDir: {r: 1, g: 0, b: 0, a: 0}
+    - _BulletEndPos: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletImpact: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletImpactPos: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletLineEnd: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletLineStart: {r: 0, g: 0, b: 0, a: 0}
+    - _BulletStartPos: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HitPosition: {r: 1, g: 1, b: 1, a: 1}
+    - _ImpactCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _LineCenters: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters0: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters1: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters10: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters11: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters12: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters13: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters14: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters15: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters16: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters17: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters18: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters19: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters2: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters20: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters21: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters22: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters23: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters24: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters25: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters26: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters27: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters28: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters29: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters3: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters30: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters31: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters32: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters33: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters34: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters35: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters36: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters37: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters38: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters39: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters4: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters40: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters41: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters42: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters43: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters44: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters45: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters46: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters47: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters48: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters49: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters5: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters50: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters51: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters52: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters53: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters54: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters55: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters56: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters57: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters58: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters59: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters6: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters60: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters7: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters8: {r: 0, g: 0, b: 0, a: 0}
+    - _LineCenters9: {r: 0, g: 0, b: 0, a: 0}
+    - _LineDir: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections0: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections1: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections10: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections11: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections12: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections13: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections14: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections15: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections16: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections17: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections18: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections19: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections2: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections20: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections21: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections22: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections23: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections24: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections25: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections26: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections27: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections28: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections29: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections3: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections30: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections31: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections32: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections33: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections34: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections35: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections36: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections37: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections38: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections39: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections4: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections40: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections41: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections42: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections43: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections44: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections45: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections46: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections47: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections48: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections49: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections5: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections50: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections51: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections52: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections53: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections54: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections55: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections56: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections57: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections58: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections59: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections6: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections60: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections7: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections8: {r: 1, g: 0, b: 0, a: 0}
+    - _LineDirections9: {r: 1, g: 0, b: 0, a: 0}
+    - _LineOrigin: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _LineProgresses: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses0: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses1: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses10: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses11: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses12: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses13: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses14: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses15: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses16: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses17: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses18: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses19: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses2: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses20: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses21: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses22: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses23: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses24: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses25: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses26: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses27: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses28: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses29: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses3: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses30: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses31: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses32: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses33: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses34: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses35: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses36: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses37: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses38: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses39: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses4: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses40: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses41: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses42: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses43: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses44: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses45: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses46: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses47: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses48: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses49: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses5: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses50: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses51: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses52: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses53: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses54: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses55: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses56: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses57: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses58: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses59: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses6: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses60: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses7: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses8: {r: 0, g: 0, b: 0, a: 0}
+    - _LineProgresses9: {r: 0, g: 0, b: 0, a: 0}
+    - _LineThicknesses: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses0: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses1: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses10: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses11: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses12: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses13: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses14: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses15: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses16: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses17: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses18: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses19: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses2: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses20: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses21: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses22: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses23: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses24: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses25: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses26: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses27: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses28: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses29: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses3: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses30: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses31: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses32: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses33: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses34: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses35: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses36: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses37: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses38: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses39: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses4: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses40: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses41: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses42: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses43: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses44: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses45: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses46: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses47: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses48: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses49: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses5: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses50: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses51: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses52: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses53: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses54: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses55: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses56: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses57: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses58: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses59: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses6: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses60: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses7: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses8: {r: 0.05, g: 0, b: 0, a: 0}
+    - _LineThicknesses9: {r: 0.05, g: 0, b: 0, a: 0}
+    - _RadialCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+  m_BuildTextureStacks: []

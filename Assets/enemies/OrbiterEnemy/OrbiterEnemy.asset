@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000b8c29b04b39a488c73ade2e51bf97, type: 3}
+  m_Name: OrbiterEnemy
+  m_EditorClassIdentifier: 
+  hostileEnemyPrefab: {fileID: 8442048058596507663, guid: ffb10457dc0709e438609b8fe0e0de19, type: 3}
+  enemyMaterial: {fileID: 2100000, guid: 00a2e57f3a0f2f241a53cc4cda6778a3, type: 2}
+  enemyName: Orbiter
+  maxHealth: 50
+  moveSpeed: 4.51
+  shootRange: 18.89
+  shootInterval: 1
+  bulletPrefab: {fileID: 7008262157002520440, guid: 9eb81b25cfe92294485040546e706b96, type: 3}
+  bulletSpeed: 2.64
+  bulletLifetime: 4
+  bulletDamage: 10
+  homingAccuracy: 0.3
+  grantsAbilityOnDeath: 0
+  rewardAbility:
+    squareName: UniqueSquare
+    uniqueSquarePrefab: {fileID: 0}
+    material: {fileID: 0}
+    pointValue: 10
+    damagesPlayerOnContact: 0
+    contactDamage: 0
+    spawnChance: 0.1
+    abilityIcon: {fileID: 0}
+  orbitDistance: 9.2
+  orbitSpeed: 43
+  orbiterShootInterval: 2
+  idleWarningSound: {fileID: 0}

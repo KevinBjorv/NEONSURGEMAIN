@@ -1,0 +1,3 @@
+rep "Squareshooter@a13_37_Games@cloud"
+  path "/"
+    smartbranch "/main"

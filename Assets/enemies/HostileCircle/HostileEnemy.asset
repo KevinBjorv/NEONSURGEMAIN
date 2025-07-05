@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8cda6b474935d4db291513991a922b, type: 3}
+  m_Name: HostileEnemy
+  m_EditorClassIdentifier: 
+  hostileEnemyPrefab: {fileID: 7621004865551626340, guid: bf83f395769035b42b598ac4fc9de585, type: 3}
+  enemyMaterial: {fileID: 2100000, guid: 19d455f22c7fb4e4fb924929246bffd4, type: 2}
+  enemyName: Hostile Circle
+  maxHealth: 50
+  moveSpeed: 0.18
+  shootRange: 12.5
+  shootInterval: 1
+  bulletPrefab: {fileID: 7008262157002520440, guid: 18a2154c19ad8854087588884a1ae006, type: 3}
+  bulletSpeed: 5
+  bulletLifetime: 3.5
+  bulletDamage: 2.5
+  homingAccuracy: 0.367
+  grantsAbilityOnDeath: 0
+  rewardAbility:
+    squareName: UniqueSquare
+    uniqueSquarePrefab: {fileID: 0}
+    material: {fileID: 0}
+    pointValue: 10
+    damagesPlayerOnContact: 0
+    contactDamage: 0
+    spawnChance: 0.1
+    abilityIcon: {fileID: 0}

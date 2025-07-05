@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56892a856feba0f40b1f69bd23b3be5f, type: 3}
+  m_Name: 5_EarnCurrency
+  m_EditorClassIdentifier: 
+  id: 5
+  displayName: Cash Cow
+  description: Earn a total of x currency
+  icon: {fileID: 21300000, guid: 31353df1114c489409a3d452cd24a0f8, type: 3}
+  tiers:
+  - targetValue: 10000
+    moneyReward: 1000
+  - targetValue: 50000
+    moneyReward: 2000
+  - targetValue: 150000
+    moneyReward: 5000
+  - targetValue: 1000000
+    moneyReward: 5500
+  unlockItemId: 
