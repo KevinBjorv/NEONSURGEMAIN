@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
     private Camera mainCamera;
     private bool isMoving = false;
     private bool useJoystick; // Determined in Awake
+    public bool UseJoystick => useJoystick;
 
     private float currentSpeed = 0f; // Current smoothed speed
 
